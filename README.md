@@ -1,11 +1,10 @@
 # WordPress Child Theme Skeleton
 
-WordPress'te kullanılan ana temaların *child theme (çocuk tema)*'ini oluşturmak için kullanılan
-proje yapısı.
+WordPress için child tema geliştirme kiti.
 
 ## Açıklama
 
-WordPress temalarına işlev kazandırmak ve güncellemelerden belirli alanarı saklamak için
+WordPress temalarına işlev kazandırmak ve güncellemelerden belirli alanları saklamak için
 child theme kullanılır. Child tema ile; üzerinde çalıştığınız siteniz daha korunaklı ve güvenli bir
 hale gelir.
 
