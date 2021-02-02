@@ -33,17 +33,17 @@ ana temanın style.css dosyasında bulunan ve temanın diğer temalardan ayrılm
 
 ## Kullanım
 
-Child Theme de kullanılan ana tema gibi function.php dosyası üzerinden işlem yapar.
-Gerekli değişiklikleri function.php dosyası üzerinden yapmanız gerekmektedir.
+Child Theme de kullanılan ana tema gibi functions.php dosyası üzerinden işlem yapar.
+Gerekli değişiklikleri functions.php dosyası üzerinden yapmanız gerekmektedir.
 
-`function.php` dosyası içerisinde 2 farklı fonksiyon tanımlanmıştır. Bunlar:
+`functions.php` dosyası içerisinde 2 farklı fonksiyon tanımlanmıştır. Bunlar:
 
 ```
 add_parent_style();
 add_child_style();
 ```
 
-`add_parent_style()` fonksiyonu, child temadaki `style.css` dosyasını temaya ekler. Bu fonksiyonun her zaman çalışması yerinde olacaktır. Dolasıyla, function.php dosyasında:
+`add_parent_style()` fonksiyonu, child temadaki `style.css` dosyasını temaya ekler. Bu fonksiyonun her zaman çalışması yerinde olacaktır. Dolasıyla, functions.php dosyasında:
 
 ```
 add_action('wp_enqueue_scripts', 'add_parent_style');
@@ -51,7 +51,7 @@ add_action('wp_enqueue_scripts', 'add_parent_style');
 
 şeklinde satır eklenmiştir.
 
-`add_child_style()` fonksiyonu, child temada kullanılan diğer CSS dosyalarını eklemek için kullanılır. Child temanızda, şayet ekstra bir CSS dosya yoksa; kullanılmasına gerek yoktur. Zaten function.php dosyasına pasifize edilmiştir. Gerekli olması durumunda aktif edilebilir.
+`add_child_style()` fonksiyonu, child temada kullanılan diğer CSS dosyalarını eklemek için kullanılır. Child temanızda, şayet ekstra bir CSS dosya yoksa; kullanılmasına gerek yoktur. Zaten functions.php dosyasına pasifize edilmiştir. Gerekli olması durumunda aktif edilebilir.
 
 ```
 // add_action('wp_enqueue_scripts', 'add_child_style');
