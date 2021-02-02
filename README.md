@@ -1,6 +1,6 @@
-# WordPress Child Theme Skeleton
+# WordPress Child Theme Boilerplate
 
-WordPress için child tema geliştirme kiti.
+WordPress için child tema geliştirme proje yapısı.
 
 ## Açıklama
 
